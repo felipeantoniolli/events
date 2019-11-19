@@ -1,0 +1,69 @@
+.img-card {
+    height: 250px;
+}
+.img-card:hover {
+    opacity: .7;
+}
+.navbar {
+    background-image: linear-gradient(to right, #440e53 0%, #ca297c 100%);
+}
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+body {
+    background-color: #ece5e552;
+}
+h1, h3, h4 {
+    margin-bottom: 20px;
+    font-family: 'Bad Script', cursive;
+}
+h4 {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+.home-text {
+    margin-top: -35px;
+}
+.footer-custom {
+    background-image: linear-gradient(to right, #ca297c 0%, #440e53 100%);
+}
+.btn-cadastro {
+    background-color: #4b3250 !important;
+    color: #fff !important;
+    border-color: #4d0461;
+}
+.btn-cadastro:hover, .btn-cadastro:active, .btn-cadastro:visited, .btn-cadastro:focus {
+    background-color: #620b7a !important;
+    color: #fff !important;
+    border-color: #680f68;
+}
+.titulo-cadastro {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.card-cadastro {
+    width: 60% !important;
+    margin: 0 auto;
+    box-shadow: none !important;
+    border: 1px solid #4d04613d;
+}
+.form-cadastro {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border: 2px solid #ca297c;
+}
+.form-cadastro:active, .form-cadastro:visited, .form-cadastro:focus {
+    border: 2px solid #4d0461;
+    box-shadow: 0 0 5px 0px #440e53;
+}
+.form-title {
+    margin-bottom: 8px;
+}
+.card:hover {
+    box-shadow: 0 0 5px 0px #440e53;
+}

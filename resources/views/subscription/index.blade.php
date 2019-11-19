@@ -18,7 +18,7 @@
                         <div>Nome: {{$event->name}}</div>
                         <div>Descrição: {{$event->description}}</div>
                         <div>Data do evento: {{date('d/m/Y', strtotime($event->start_date))}}</div>
-                        <div>Hora do evento: {{date('h:i', strtotime($event->start_date))}}</div>
+                        <div>Hora do evento: {{date('h:i', strtotime($event->start_date))}}</div>-
                     @endForeach
                 @endif
             </div>
